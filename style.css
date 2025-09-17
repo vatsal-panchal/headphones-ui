@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&family=Bebas+Neue&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Hachi+Maru+Pop&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@media (max-width: 952px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+  header {
+    padding: 0px 5vw;
+  }
+  header h2 {
+    font-size: 1.3rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+  }
+
+  #nav-icon {
+    font-size: 1.2rem;
+  }
+  .profile {
+    height: 50px;
+    width: 50px;
+    background: url(https://i.pinimg.com/1200x/2c/36/44/2c364466678be55dfacfe65c673844c1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 30%;
+    background-position: center;
+  }
+  .name {
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: teal;
+    font-weight: 500;
+  }
+  .search {
+    border: 1px solid black;
+    width: auto;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin: 3vh 5vw;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  input {
+    border: none;
+    outline: none;
+  }
+  .scroll-bar {
+    display: flex;
+    gap: 3vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-left: 5vw;
+  }
+
+  .scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .card {
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+  }
+
+  #card1 {
+    background: url(https://i.pinimg.com/1200x/05/25/81/05258119e21b3cdb97021353b970de35.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  #card2 {
+    background: url(https://i.pinimg.com/736x/20/cc/f7/20ccf73437ab5d2e13742ed9bb564bb7.jpg);
+    background-size: cover;
+    object-fit: cover;
+  }
+  #card3 {
+    background: url(https://i.pinimg.com/736x/ba/e7/85/bae78594bec550c138b1af92a2f57642.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-position: center;
+  }
+  #card4 {
+    background: url(https://i.pinimg.com/736x/35/76/94/357694626014bf442ee8f86d81eac5b9.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  #card5 {
+    background: url(https://i.pinimg.com/736x/f1/a7/a6/f1a7a63538c93368e7beefe6bfa4189e.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+  }
+  #card3 {
+    background: url(https://i.pinimg.com/736x/ba/e7/85/bae78594bec550c138b1af92a2f57642.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-position: center;
+  }
+  .hero-footer {
+    margin: 4vh 5vw;
+  }
+
+  .footer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+  }
+
+  .footer-head h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .footer-head p {
+    font-size: 0.9rem;
+    color: teal;
+  }
+
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .product-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 12px;
+  }
+
+  .product-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+  }
+
+  .product-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .product-info p {
+    font-size: 0.8rem;
+    color: gray;
+  }
+
+  .price-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .price {
+    color: teal;
+  }
+
+  .rating {
+    color: orange;
+    font-size: 0.85rem;
+  }
+}
